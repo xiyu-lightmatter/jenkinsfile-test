@@ -21,5 +21,10 @@ pipeline {
                 echo "Test"
             }
         }
+        stage ("DV") {
+            steps {
+                echo "Run"
+            }
+        }
     }
 }
